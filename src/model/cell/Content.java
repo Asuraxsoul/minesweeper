@@ -5,5 +5,6 @@ public enum Content {
     NOBOMB,
     ONEBOMB,
     TWOBOMB,
-    THREEBOMB
+    THREEBOMB,
+    FOURBOMB
 }

@@ -12,13 +12,13 @@ public class Randomiser {
         Position[] positions;
 
         if (difficultyLevel == EASY) {
-            bombNum = (size * size) % 5;
+            bombNum = (size * size) / 5;
 
         } else if (difficultyLevel == INTERMEDIATE) {
-            bombNum = (size * size) % 4;
+            bombNum = (size * size) / 4;
 
         } else {
-            bombNum = (size * size) % 3;
+            bombNum = (size * size) / 3;
         }
 
         positions = new Position[bombNum];
